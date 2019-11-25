@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OSDSettingDialog</class>
+ <widget class="QDialog" name="OSDSettingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>289</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>OSD Setting</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>19</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QComboBox" name="format_combobox">
+     <item>
+      <property name="text">
+       <string>YY-MM-DD HH:MM:SS.3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YY-MM-DD HH:MM:SS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YY/MM/DD HH:MM:SS.3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YY/MM/DD HH:MM:SS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MM-DD-YY HH:MM:SS.3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MM-DD-YY HH:MM:SS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MM/DD/YY HH:MM:SS.3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MM/DD/YY HH:MM:SS</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Pos</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2" colspan="2">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>135</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="2" colspan="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>135</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="2" colspan="2">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>135</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="3">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>99</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="6" column="1">
+    <widget class="QComboBox" name="font_combobox">
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>smallest</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>smaller</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>small</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>middle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>larg</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>larger</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>largest</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>19</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Font size</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>19</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Date time format</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="pos_combobox">
+     <item>
+      <property name="text">
+       <string>right,top</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>right,center</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>righr,bottom</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>left,top</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>left,center</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>left,bottom</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>center,top</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>center,center</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>center,bottom</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <spacer name="verticalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>OSD enable</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="enable_combobox">
+     <item>
+      <property name="text">
+       <string>true</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>false</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="8" column="0" colspan="4">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ok_btn">
+       <property name="text">
+        <string>Ok</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancel_btn">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_7">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

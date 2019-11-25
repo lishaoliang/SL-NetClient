@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Net Client</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0" rowspan="3">
+     <widget class="QWidget" name="widget" native="true">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1901</width>
+         <height>1041</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menustream_contral">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+    <addaction name="actionstream_setting"/>
+    <addaction name="actionpicture_setting"/>
+    <addaction name="actionimage_setting"/>
+    <addaction name="actionosd_setting"/>
+   </widget>
+   <widget class="QMenu" name="menuInternet_Setting">
+    <property name="title">
+     <string>Internet Setting</string>
+    </property>
+    <addaction name="actionwireless_setting"/>
+    <addaction name="actionWired_IP_address"/>
+    <addaction name="actionwireless_IP_address"/>
+    <addaction name="actionntp_setting"/>
+   </widget>
+   <widget class="QMenu" name="menuBasic_Information">
+    <property name="title">
+     <string>Basic Information</string>
+    </property>
+    <widget class="QMenu" name="menuLanguege_2">
+     <property name="title">
+      <string>Languege</string>
+     </property>
+     <addaction name="actionChinese"/>
+     <addaction name="actionEnglish"/>
+    </widget>
+    <addaction name="actionsystem_base"/>
+    <addaction name="separator"/>
+    <addaction name="menuLanguege_2"/>
+    <addaction name="actionupgrade"/>
+    <addaction name="separator"/>
+    <addaction name="actionclose"/>
+   </widget>
+   <addaction name="menuBasic_Information"/>
+   <addaction name="menuInternet_Setting"/>
+   <addaction name="menustream_contral"/>
+  </widget>
+  <action name="actionstream_setting">
+   <property name="text">
+    <string>stream setting</string>
+   </property>
+  </action>
+  <action name="actionimage_setting">
+   <property name="text">
+    <string>image setting</string>
+   </property>
+  </action>
+  <action name="actionpicture_setting">
+   <property name="text">
+    <string>picture setting</string>
+   </property>
+  </action>
+  <action name="actionwireless_setting">
+   <property name="text">
+    <string>wireless setting</string>
+   </property>
+  </action>
+  <action name="actionwired">
+   <property name="text">
+    <string>wired</string>
+   </property>
+  </action>
+  <action name="actionwireless">
+   <property name="text">
+    <string>wireless</string>
+   </property>
+  </action>
+  <action name="actionsystem_base">
+   <property name="text">
+    <string>system base</string>
+   </property>
+  </action>
+  <action name="actionclose">
+   <property name="text">
+    <string>close</string>
+   </property>
+  </action>
+  <action name="actionChinese">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Chinese</string>
+   </property>
+  </action>
+  <action name="actionEnglish">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="actionupgrade">
+   <property name="text">
+    <string>upgrade</string>
+   </property>
+  </action>
+  <action name="actionosd_setting">
+   <property name="text">
+    <string>osd setting</string>
+   </property>
+  </action>
+  <action name="actionWired_IP_address">
+   <property name="text">
+    <string>Wired IP address</string>
+   </property>
+  </action>
+  <action name="actionwireless_IP_address">
+   <property name="text">
+    <string>wireless IP address</string>
+   </property>
+  </action>
+  <action name="actionntp_setting">
+   <property name="text">
+    <string>ntp setting</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
