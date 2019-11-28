@@ -6,5 +6,5 @@
     <Publisher>Qt-Project</Publisher>
     <!-- Directory name is used in component.xml -->
     <StartMenuDir>SL Net Client</StartMenuDir>
-    <TargetDir>@ApplicationsDirX86@/SLNetClient</TargetDir>
+    <TargetDir>@ApplicationsDirX86@\SLNetClient</TargetDir>
 </Installer>

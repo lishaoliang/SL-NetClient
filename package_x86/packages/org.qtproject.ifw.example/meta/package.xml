@@ -6,4 +6,7 @@
     <ReleaseDate>2019-10-09</ReleaseDate>
     <Default>true</Default>
     <Script>installscript.qs</Script>
+	<UserInterfaces>
+		<UserInterface>targetwidget.ui</UserInterface>
+	</UserInterfaces>
 </Package>
