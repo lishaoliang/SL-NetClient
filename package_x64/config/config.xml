@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>SL Net Client 1.0.2(64-bit x64)</Name>
+    <Version>1.0.2</Version>
+    <Title>SL Net Client 安装向导</Title>
+    <Publisher>Qt-Project</Publisher>
+    <!-- Directory name is used in component.xml -->
+    <StartMenuDir>SL Net Client</StartMenuDir>
+    <TargetDir>@ApplicationsDirX64@/SLNetClient</TargetDir>
+</Installer>

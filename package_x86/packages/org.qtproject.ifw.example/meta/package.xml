@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<Package>
+    <DisplayName>README.txt</DisplayName>
+    <Description>A README.txt, accessible through a start menu entry.</Description>
+    <Version>1.1.0-1</Version>
+    <ReleaseDate>2019-10-09</ReleaseDate>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+</Package>
